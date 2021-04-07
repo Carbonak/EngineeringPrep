@@ -1,6 +1,5 @@
 # EngineeringPrep
 
-![Image of project]
-(https://github.com/Carbonak/EngineeringPrep/images/IMG1640.jpg)
+![Image of project](https://github.com/Carbonak/EngineeringPrep/images/IMG1640.jpg)
 
 
