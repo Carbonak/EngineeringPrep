@@ -2,7 +2,6 @@ from gpiozero import MotionSensor
 from picamera import PiCamera
 from time import sleep
 from datetime import datetime
-from signal import pause
 
 #a motion sensor(pin4) and the PiCamera
 sensor = MotionSensor(4)
