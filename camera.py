@@ -11,14 +11,6 @@ camera = PiCamera()
 camera.rotation = 180
 camera.start_preview()
 
-#take photo when motion is detected
-def take_photo():
-    global i
-    i = i + 1
-    camera.capture('/home/michael/pictures/image_%s.jpg' % i)
-    print('A photo has been taken')
-    sleep(3)
-
 def main():
     while True:
         sensor.wait_for_motion()
